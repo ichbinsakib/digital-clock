@@ -23,7 +23,7 @@ function updateClock(){
     secondE1.innerText = s;
     ampmE1.innerText = ampm;
     setTimeout(() => {
-        
+        updateClock()
     }, 1000);
 }
 
